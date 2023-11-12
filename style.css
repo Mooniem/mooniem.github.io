@@ -20,9 +20,7 @@
     align-items: center;
     max-width: 50%;
 }
-body {
-    scroll-behavior: smooth;
-}
+
 .about-outer {
     display: flex;
     justify-content: space-between;
@@ -55,6 +53,18 @@ body {
 
 }
 
+#selfPicture:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
 .button {
     border-color: black;
     border-radius: 8px;
@@ -62,7 +72,7 @@ body {
     margin: 3%;
     text-align: center;
     border-style: solid;
-    background-color: #f6f2f2;
+    background-color: #8dd4f5;
 }
 /* make button display on the same row but with space in between */
 .button-container{
@@ -197,4 +207,21 @@ a.button {
 .icon-container{
     display:flow;
     justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+    /* arrange div order into column and not row */
+    .about-container {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .about-outer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+        /* Styles to make the <div> display as a column */
+        /* display: flex;
+        flex-direction: column; or flex, or whatever layout you prefer
+        Add other styles to control the appearance in column layout */
 }
