@@ -9,6 +9,9 @@
   <link href="./style.css" rel="stylesheet" type="text/css" media="all" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -48,13 +51,13 @@
           <img src="./data/images/me2.jpg" id="selfPicture" alt="katelyn" style="width:100%;height: 100%;">
         </div>
         <div class="about-container-right">
-          <h3 class="main-font">About me</h3>
-          <div class="description-text ">
+          <h3 class="merriweather-bold">About me</h3>
+          <div class="merriweather-regular">
             <p>I am currently a second-year PhD student in Information Science at the <u>University of Washingtion</u>.
-              I'm fortunate to be advised by <a href="https://llwang.net/">Dr.Lucy Lu Wang</a> and <a
-                href="https://homes.cs.washington.edu/~reinecke/"> Dr.Katharina Reinecke</a>. </p>
+              I'm fortunate to be advised by <a href="https://llwang.net/" class="link-text">Dr.Lucy Lu Wang</a> and <a
+                href="https://homes.cs.washington.edu/~reinecke/" class="link-text"> Dr.Katharina Reinecke</a>. </p>
             <p>Before my PhD, I spent four amazing years in my alma mater <a
-                href="https://www.middlebury.edu/">Middlebury College</a> from which I obtained my Bachelor's of Art in
+                href="https://www.middlebury.edu/" class="link-text">Middlebury College</a> from which I obtained my Bachelor's of Art in
               Psychology and Mathematics.</p>
             <p>My research interests derive from the intersection of psychology, humanities, and Human-AI interaction.
             </p>
@@ -68,25 +71,24 @@
 
     <!-- Research Section -->
     <div class="research-outer" id="projects">
-      <div class="about-container">
-        <div class="about-container-right">
-          <h3 class="main-font">My Research</h3>
-          <div class="description-text ">
-
-            <p>I am currently working on projects related to human-AI interaction and AI-assisted decision-making.</p>
-            <div class="button-container">
-              <a href="https://www.labinthewild.org/studies/decision-making/" class="button">
-                <span>Ongoing Study</span>
-              </a>
-            </div>
-            <p>I have worked on evaluating <a href="https://arxiv.org/abs/2306.05550">bias against social stigmatized groups in language models</a>.</p>
+      <!-- <div class="about-container"> -->
+        <!-- insert one div that is centered with title on research and one paragraph -->
+        <!-- <div class="research-box"> -->
+          <!-- title -->
+          
+          <!-- insert a card shape with title  -->
+          <div class = "publication-card">
+            <h3 class="merriweather-bold"> Recent Research</h3>
+            <!-- link to paper and with title -->
+          <a href="https://arxiv.org/abs/2306.05550" class="merriweather-bold-italic">"Bias Against 93 Stigmatized Groups in Masked Language Models and Downstream Sentiment Classification Tasks"</a>
+          <div class= "merriweather-light">
+            <p> ACM Conference on Fairness, Accountability, and Transparency (FAccT'23) </p>
           </div>
-        </div>
-        <div class="about-container-left">
-          <img src="./data/images/research1.png" alt="katelyn"
-            style="max-width:100%; border:2px solid rgb(227, 212, 212);border-radius: 2%;">
-        </div>
-      </div>
+          </div>
+         
+        <!-- </div> -->
+
+      <!-- </div> -->
     </div>
 
     <!-- Contact Section -->
@@ -97,8 +99,8 @@
           <img src="./data/images/home1.jpg" alt="katelyn" style="width:100%;height: 100%;">
         </div>
         <div class="about-container-right">
-          <h3 class="main-font">Contact</h3>
-          <div class="description-text ">
+          <h3 class="merriweather-bold">Contact</h3>
+          <div class="merriweather-light">
             <p>Please feel free to reach out if you are interested in my research or applying for a PhD in similar
               programs!</p>
             <br>

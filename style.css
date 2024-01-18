@@ -46,13 +46,18 @@
     padding: 0 2%;
     margin: 3%;
     border-color: #ebebeb;
-    border-radius: 3%;
+    border-radius: 2rem;
     border-style: solid;
     border-width: medium;
     background-color: #ffffff;
 
 }
 
+.about-container:hover {
+    /* MAKE THE BACKGROUND CHANGE COLOR ON HOVER */
+    transition: 0.5s;
+    box-shadow: 0ch 0ch 10px rgba(0, 0, 0, 0.1);
+}
 #selfPicture:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
@@ -107,7 +112,7 @@ a.button {
 }
 
 .description-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: merriweather, san-serif;
     font-size: large;
     text-align: left;
     opacity: 0;
@@ -192,10 +197,7 @@ a.button {
     }
 } 
 
-.main-font {
-    font-size: x-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 .contact-outer{
     display: flex;
@@ -225,3 +227,110 @@ a.button {
         flex-direction: column; or flex, or whatever layout you prefer
         Add other styles to control the appearance in column layout */
 }
+
+.publication-card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 5%;
+    margin: 3%;
+    border-color: #ebebeb;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: medium;
+    background-color: #ffffff;
+}
+/* insert a hover effect for publication card */
+
+.publication-card:hover {
+    /* MAKE THE BACKGROUND CHANGE COLOR ON HOVER */
+    transition: 0.5s;
+    background-color: #DDE6ED;
+    box-shadow: 0ch 0ch 10px rgba(0, 0, 0, 0.1);
+}
+
+.description-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: left;
+}
+
+.publication-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: left;
+    color: #27374D;
+}
+/* .publication-title:hover {
+    color: #fcfcfc;
+} */
+
+.research-box{
+    align-items: center;
+}
+
+/* Fonts */
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .link-text {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5282a7;
+  }
+  .link-text:hover {
+    /* when hovered draw a underline and a shadow over text */
+    /* gradually show underline and a shadow */
+    transition: 0.5s;
+    text-decoration: underline;
+    text-shadow: 0 0 10px rgba(6, 6, 6, 0.1);
+    opacity: 0.8;
+    text-decoration-color:#176B87    
+}
+
