@@ -38,6 +38,16 @@
     box-shadow: 0 0 10px rgb(0 0 0 / 0%);
 }
 
+.project-outer {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffefe;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0%);
+}
+
 .about-container {
     /* let two divs parallel next to each other */
     display: flex;
@@ -251,6 +261,30 @@ a.button {
     box-shadow: 0ch 0ch 10px rgba(0, 0, 0, 0.1);
 }
 
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    padding: 5%;
+    margin: 3%;
+    border-color: #ebebeb;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: medium;
+    background-color: #ffffff;
+}
+/* insert a hover effect for publication card */
+
+.project-card:hover {
+    /* MAKE THE BACKGROUND CHANGE COLOR ON HOVER */
+    transition: 0.5s;
+    outline-color: #0b2952;
+    background-color: #c8d0f3;
+    
+    box-shadow: 0ch 0ch 10px rgba(0, 0, 0, 0.1);
+}
+
 .description-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
@@ -266,6 +300,9 @@ a.button {
 /* .publication-title:hover {
     color: #fcfcfc;
 } */
+.projects {
+    display: flex;
+}
 
 .research-box{
     align-items: center;
