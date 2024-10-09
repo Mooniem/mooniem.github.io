@@ -29,6 +29,16 @@
     box-shadow: 0 0 10px rgb(0 0 0 / 0%);
 }
 
+.project-outer {
+    padding: 30px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffefe;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0%);
+}
+
 .research-outer {
     width:100%;
     display: flex;
@@ -233,6 +243,11 @@ a.button {
         flex-direction: column;
         flex-wrap: nowrap;
     }
+    .project-outer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
         /* Styles to make the <div> display as a column */
         /* display: flex;
         flex-direction: column; or flex, or whatever layout you prefer
@@ -348,6 +363,7 @@ a.button {
   .merriweather-black {
     font-family: "Merriweather", serif;
     font-weight: 900;
+    color:rgb(27, 27, 27);
     font-style: normal;
   }
   
@@ -373,3 +389,34 @@ a.button {
     text-decoration-color:#176B87    
 }
 
+
+
+.icons-link-containers{
+    align-items: left;
+    color:#0b2952;
+    
+}
+.icons-link-containers:hover{
+    color: hsl(268, 54%, 89%);
+    transition:0.5s;
+}
+
+
+/* override bootstrap */
+.card{
+    min-width: 30%;
+    max-width: 100%;
+    min-height:95%;
+    margin-bottom: 30px; 
+    border-color:rgb(229, 229, 229);
+    border-width: 2px;
+    
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-title{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #0b2952;
+}
