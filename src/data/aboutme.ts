@@ -42,6 +42,6 @@ export const aboutMe: AboutMe = {
   // cvUrl: "https://",
   // institutionUrl: "https://www.stanford.edu",
   // altName: "",
-  funDescription: "I like playing volleyball, hiking, running outside of research.",
-  secretDescription: "I like playing volleyball, hiking, running outside of research."
+  funDescription: "",
+  secretDescription: ""
 };
