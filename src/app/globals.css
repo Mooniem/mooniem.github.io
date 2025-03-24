@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --emphasis: #2966df;
 }
 
 body {
@@ -25,3 +26,12 @@ body {
 .sans {
   font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
+
+/* change color for emphasis class*/
+.emphasis-text {
+  color: var(--emphasis);
+  font-size: medium;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

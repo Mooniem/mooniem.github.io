@@ -14,10 +14,10 @@ export const newsData: News[] = [
     link: "https://icml.cc/",
   }*/
  // uncomment this when you have news
-  // {
-  //   date: "January 2024",
-  //   title: "New blog post",
-  //   description: "Check out my latest blog post on AI and ethics.",
-  //   link: "https://example.com/blog-post",
-  // },
+  {
+    date: "March 2025",
+    title: "New article on AI hallucination published in the Conversation",
+    description: "Check out my latest article on AI hallucination and its implications for society.",
+    link: "https://theconversation.com/what-are-ai-hallucinations-why-ais-sometimes-make-things-up-242896?mkt_tok=NTI3LUFIUi0yNjUAAAGZZv8ruLxTTWAhJ8OEa-i0u5lBTPH_C-4Nt1z2gKVtVM2yLAq5bZ-HcHwOxEAqXyBjt-n_zTZ-RKDO3VSm070veF0WvawYWT5JKQ0OIXcNNw",
+  },
 ];

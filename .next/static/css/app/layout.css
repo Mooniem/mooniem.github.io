@@ -1131,6 +1131,7 @@ video {
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --emphasis: #2966df;
 }
 
 body {
@@ -1150,6 +1151,14 @@ body {
 .font-sans,
 .sans {
   font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* change color for emphasis class*/
+.emphasis-text {
+  color: var(--emphasis);
+  font-size: medium;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .hover\:rotate-1:hover {
   --tw-rotate: 1deg;
@@ -1281,4 +1290,5 @@ body {
 .\[\&_a\]\:underline a {
   text-decoration-line: underline;
 }
+
 
