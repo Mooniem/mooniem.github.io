@@ -1094,6 +1094,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(63 63 70 / var(--tw-text-opacity, 1));
 }
+.text-zinc-900 {
+  --tw-text-opacity: 1;
+  color: rgb(24 24 27 / var(--tw-text-opacity, 1));
+}
 .underline {
   text-decoration-line: underline;
 }
@@ -1290,5 +1294,4 @@ body {
 .\[\&_a\]\:underline a {
   text-decoration-line: underline;
 }
-
 

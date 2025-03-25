@@ -30,7 +30,7 @@ export const aboutMe: AboutMe = {
      Middlebury College</a> from which I obtained my Bachelor's of Art in Psychology and\
      Mathematics. \n\n"+
     "My research interests derive from the intersection of psychology, humanties, and data science.\
-    My projects focus on human behaviors in the age of generative AI, including 1) how individuals are impacted by AI systems, 2) how people engage with AI systems differently, and 3)what can (cannot) facilitate \
+    My projects focus on human thinking and decision-making in the age of generative AI, including 1) how individuals are impacted by AI systems, 2) what are the psychological factors underlying our engagement with AI systems, and 3) what can (cannot) facilitate \
     effective Human-AI collaboration.",
   email: "kmei@uw.edu",
   imageUrl: "/profile.jpg",

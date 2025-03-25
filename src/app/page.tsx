@@ -31,7 +31,7 @@ export default function Home() {
           <div className="col-span-12 md:col-span-7 md:col-start-6 space-y-24">
             {/* About section is typically first */}
             {aboutMe.description && (
-              <section className="space-y-6">
+              <section className="space-y-6 text-zinc-900">
                 {aboutMe.description.split("\n\n").map((paragraph, index) => (
                 <p
                   key={index}
