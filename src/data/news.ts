@@ -14,6 +14,12 @@ export const newsData: News[] = [
     link: "https://icml.cc/",
   }*/
  // uncomment this when you have news
+ {
+  date: "April 2025",
+  title: "New position paper on critical thinking in the era of GenAI is accepted to CHI 2025 workshop!",
+  description: " Paper coming soon on arxiv! ",
+  link: "https://aireasoning.media.mit.edu/",
+},
   {
     date: "March 2025",
     title: "New article on AI hallucination published in the Conversation",
