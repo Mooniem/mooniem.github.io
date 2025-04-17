@@ -25,7 +25,8 @@ export const aboutMe: AboutMe = {
   description:
     "I'm a third-year PhD student in Information Science at the University of Washington. \
      I'm fortunate to be advised by <a href='https://llwang.net/'>Lucy Lu Wang </a> \
-     and <a href = 'https://homes.cs.washington.edu/~reinecke/'> Katharina Reinecke</a>. \
+     and <a href = 'https://homes.cs.washington.edu/~reinecke/'> Katharina Reinecke</a>.\
+     I'm also very grateful to be mentored by <a href = 'https://koenecke.infosci.cornell.edu/'> Allison Koenecke </a> and <a href='https://www.monasloane.org/'> Mona Sloane </a>.\
      Before my PhD, I spent four amazing years at <a href='https://www.middlebury.edu/'> \
      Middlebury College</a> from which I obtained my Bachelor's of Art in Psychology and\
      Mathematics. \n\n"+
