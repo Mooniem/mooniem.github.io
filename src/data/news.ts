@@ -17,7 +17,7 @@ export const newsData: News[] = [
  {
   date: "April 2025",
   title: "New position paper on critical thinking in the era of GenAI is accepted to CHI 2025 workshop!",
-  description: " Paper coming soon on arxiv! ",
+  description: "Paper is included in publications below.",
   link: "https://aireasoning.media.mit.edu/",
 },
   {
