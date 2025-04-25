@@ -21,7 +21,23 @@ export const publicationData: Publication[] = [
     paperUrl: "https://arxiv.org/abs/2504.14689",
     // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
-    tldr: "Proposes new definitions for evaluating the impact of GenAI on human critical thinking and systems design.",
+    tldr: "Propose new definitions for evaluating the impact of GenAI on human critical thinking and systems design.",
+    // imageUrl:
+    //   "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+
+  {
+    year: "2025",
+    conference: "",
+    title: "Passing the Buck to AI: How Individuals' Decision-Making Patterns Affect Reliance on AI",
+    authors: "Katelyn X. Mei, Rock Yuren Pang, Alex Lyford, Lucy Lu Wang, Katharina Reinecke",
+    paperUrl: "https://drive.google.com/file/d/1VrnaG6t1jY61ehEW85hN3zIVH6ARkGGg/view?usp=drive_link",
+    // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "Examine the effect of individuals' decision-making patterns on their reliance on AI suggestions.",
     // imageUrl:
     //   "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // award: "🏆 Best Paper Award",
