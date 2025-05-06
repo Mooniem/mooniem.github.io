@@ -34,7 +34,7 @@ export const publicationData: Publication[] = [
     conference: "",
     title: "Passing the Buck to AI: How Individuals' Decision-Making Patterns Affect Reliance on AI",
     authors: "Katelyn X. Mei, Rock Yuren Pang, Alex Lyford, Lucy Lu Wang, Katharina Reinecke",
-    paperUrl: "https://drive.google.com/file/d/1VrnaG6t1jY61ehEW85hN3zIVH6ARkGGg/view?usp=drive_link",
+    paperUrl: "https://arxiv.org/abs/2505.01537",
     // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Examine the effect of individuals' decision-making patterns on their reliance on AI suggestions.",
