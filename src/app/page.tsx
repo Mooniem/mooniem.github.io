@@ -35,7 +35,7 @@ export default function Home() {
                 {aboutMe.description.split("\n\n").map((paragraph, index) => (
                 <p
                   key={index}
-                  className="font-serif text-sm leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
+                  className="font-serif text-md leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
                   dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
                 ))}

@@ -23,7 +23,7 @@ export const aboutMe: AboutMe = {
   institution: "University of Washington",
   // Note that links work in the description
   description:
-    "I'm a third-year PhD student in Information Science at the University of Washington. \
+    "I'm a fourth-year PhD candidate in Information Science at the University of Washington. \
      I'm fortunate to be advised by <a href='https://llwang.net/'>Lucy Lu Wang </a> \
      and <a href = 'https://homes.cs.washington.edu/~reinecke/'> Katharina Reinecke</a>.\
      I'm also very grateful to be mentored by <a href = 'https://koenecke.infosci.cornell.edu/'> Allison Koenecke </a> and <a href='https://www.monasloane.org/'> Mona Sloane </a>.\
@@ -34,7 +34,7 @@ export const aboutMe: AboutMe = {
     My projects focus on human thinking and decision-making in the age of generative AI, including 1) how individuals are impacted by AI systems, 2) what are the psychological factors underlying our engagement with AI systems, and 3) what can (cannot) facilitate \
     effective Human-AI collaboration.",
   email: "kmei@uw.edu",
-  imageUrl: "/profile.jpg",
+  imageUrl: "/profile3.jpg",
   googleScholarUrl: "https://scholar.google.com/citations?user=m8Fcl7QQLMAC&hl=en",
   githubUsername: "mooniem",
   linkedinUsername: "katelynmei",
@@ -43,6 +43,6 @@ export const aboutMe: AboutMe = {
   // cvUrl: "https://",
   // institutionUrl: "https://www.stanford.edu",
   // altName: "",
-  funDescription: "I like playing volleyball, hiking, running outside of research.",
+  funDescription: "When I'm not researching, I'm painting, bouldering, running, biking, playing sports with friends.",
   // secretDescription: "I like playing volleyball, hiking, running outside of research."
 };

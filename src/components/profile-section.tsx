@@ -22,7 +22,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
     <div className="md:sticky top-12 flex flex-row-reverse md:flex-col gap-4 md:space-y-8">
       {aboutMe.imageUrl && (
         <div className="w-1/3 md:w-full flex-shrink-0">
-          <div className="relative max-h-[60vh] md:w-[90%] aspect-[3/4]">
+          <div className="relative max-h-[40vh] md:w-[90%] aspect-[3/4]">
             <Image
               src={aboutMe.imageUrl}
               alt={aboutMe.name}
@@ -42,7 +42,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
             {aboutMe.altName}
           </p>
         )}
-        <p className="text-zinc-600 text-xs leading-relaxed tracking-wide uppercase mb-6">
+        <p className="text-zinc-600 text-sm leading-relaxed tracking-wide uppercase mb-6">
           {aboutMe.title}
           <br />
           {aboutMe.institutionUrl ? (
@@ -62,7 +62,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
           {aboutMe.blogUrl && (
             <a
               href={aboutMe.blogUrl}
-              className="group inline-flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
+              className="group inline-flex items-center gap-2 text-lg text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
