@@ -28,6 +28,21 @@ export const publicationData: Publication[] = [
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
   },
+  {
+    year: "2025",
+    conference: "Under Submission",
+    title: "Addressing Pitfalls in Auditing Practices of Automatic Speech Recognition Technologies: A Case Study of People with Aphasia",
+    authors: "Katelyn X. Mei, Anna Seo Gyeong Choi, Hilke Schellmann, Mona Sloane, Allison Koenecke",
+    paperUrl: "https://arxiv.org/abs/2506.08846",
+    // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "Propose new practices for auditing ASR systems to better include people with speech impairments.",
+    // imageUrl:
+    //   "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
 
   {
     year: "2025",
