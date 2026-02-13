@@ -13,6 +13,21 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
+    {
+    year: "2026",
+    conference: "",
+    title: "Grok in the Wild: Characterizing the Roles and Uses of Large Language Models on Social Media",
+    authors: "Katelyn X. Mei, Robert Wolfe, Nicholas Weber, Martin Saveski",
+    paperUrl: "https://arxiv.org/abs/2602.11286",
+    // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "Characterize the roles and uses of Grok, a large language model developed by Apple, on X.",
+    // imageUrl:
+    //   "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
   {
     year: "2025",
     conference: "ACM Workshop on Human-AI Interaction for Augmented Reasoning (CHI)",
@@ -46,7 +61,7 @@ export const publicationData: Publication[] = [
 
   {
     year: "2025",
-    conference: "",
+    conference: "ACM Transactions on Computer-Human Interaction (TOCHI)",
     title: "Passing the Buck to AI: How Individuals' Decision-Making Patterns Affect Reliance on AI",
     authors: "Katelyn X. Mei, Rock Yuren Pang, Alex Lyford, Lucy Lu Wang, Katharina Reinecke",
     paperUrl: "https://arxiv.org/abs/2505.01537",
