@@ -15,13 +15,28 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
     {
     year: "2026",
-    conference: "",
+    conference: "The International AAAI Conference on Web and Social Media",
     title: "Grok in the Wild: Characterizing the Roles and Uses of Large Language Models on Social Media",
     authors: "Katelyn X. Mei, Robert Wolfe, Nicholas Weber, Martin Saveski",
     paperUrl: "https://arxiv.org/abs/2602.11286",
     // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Characterize the roles and uses of Grok on X.",
+    // imageUrl:
+    //   "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    // award: "🏆 Best Paper Award",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  },
+  {
+    year: "2026",
+    conference: "the 64th Annual Meeting of the Association for Computational Linguistics (ACL)- Oral Presentation",
+    title: "Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation",
+    authors: "Katelyn X. Mei, Yili Hsu, Minjoon Choi, Zongwan Cao, Chenjun Xu, Bingbing Wen, Su Lin Blodgett, Lucy Lu Wang",
+    // paperUrl: "https://arxiv.org/abs/2506.08846",
+    // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "Large-scale analysis of human evaluation protocols for long-form text generation.",
     // imageUrl:
     //   "https://images.unsplash.com/photo-1561622539-dffbfc2008fd?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     // award: "🏆 Best Paper Award",
@@ -44,8 +59,8 @@ export const publicationData: Publication[] = [
     // imageUrl: "/images/publication-image.jpg"
   },
   {
-    year: "2025",
-    conference: "Under Submission",
+    year: "2026",
+    conference: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
     title: "Addressing Pitfalls in Auditing Practices of Automatic Speech Recognition Technologies: A Case Study of People with Aphasia",
     authors: "Katelyn X. Mei, Anna Seo Gyeong Choi, Hilke Schellmann, Mona Sloane, Allison Koenecke",
     paperUrl: "https://arxiv.org/abs/2506.08846",
