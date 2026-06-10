@@ -7,12 +7,24 @@ export interface News {
 
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
-  /*{
-    date: "March 2024",
-    title: "Paper accepted at ICML 2024",
-    description: "Our work on causal discovery in time series data has been accepted at ICML 2024.",
-    link: "https://icml.cc/",
-  }*/
+  //     {
+  //   date: "June 2026",
+  //   title: "Summer Research Internship at Microsoft Research!",
+  //   description: "Starting this ",
+  //   // link: "https://icml.cc/",
+  // },
+    {
+    date: "May 2026",
+    title: "Presentation at ICWSM 2026",
+    description: "I presented our work on characterizing the roles and uses of Grok on X at ICWSM 2026!",
+    // link: "https://icml.cc/",
+  },
+  {
+    date: "April 2026",
+    title: "Paper accepted at ACL 2026",
+    description: "Our work on human evaluation protocols for long-form text generation has been accepted at ACL 2026!",
+    // link: "https://icml.cc/",
+  },
  // uncomment this when you have news
    {
   date: "February 2026",
@@ -20,18 +32,18 @@ export const newsData: News[] = [
   description:"",
   link:"https://arxiv.org/abs/2602.11286" ,
 },
-  {
-  date: "June 2025",
-  title: "I passed my qualifying exam and became a PhD candidate!",
-  description:"",
-  link:"" ,
-},
- {
-  date: "April 2025",
-  title: "New position paper on critical thinking in the era of GenAI is accepted to CHI 2025 workshop!",
-  description: "Paper is included in publications below.",
-  link: "https://aireasoning.media.mit.edu/",
-},
+//   {
+//   date: "June 2025",
+//   title: "I passed my qualifying exam and became a PhD candidate!",
+//   description:"",
+//   link:"" ,
+// },
+//  {
+//   date: "April 2025",
+//   title: "New position paper on critical thinking in the era of GenAI is accepted to CHI 2025 workshop!",
+//   description: "Paper is included in publications below.",
+//   link: "https://aireasoning.media.mit.edu/",
+// },
   // {
   //   date: "March 2025",
   //   title: "New article on AI hallucination published in the Conversation",
