@@ -22,7 +22,7 @@ export const newsData: News[] = [
   {
     date: "April 2026",
     title: "Paper accepted at ACL 2026!",
-    description: "Our work on human evaluation protocols for long-form text generation has been accepted at ACL 2026!",
+    description: "Our work on human evaluation protocols for long-form text generation has been accepted at ACL 2026 for oral presentation! I'll be attending ACL 2026 in San Diego, CA. Looking forward to seeing everyone there!",
     // link: "https://icml.cc/",
   },
  // uncomment this when you have news
