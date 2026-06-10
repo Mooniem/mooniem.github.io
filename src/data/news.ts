@@ -15,23 +15,23 @@ export const newsData: News[] = [
   // },
     {
     date: "May 2026",
-    title: "Presentation at ICWSM 2026",
+    title: "Paper Presentation at ICWSM 2026!",
     description: "I presented our work on characterizing the roles and uses of Grok on X at ICWSM 2026!",
     // link: "https://icml.cc/",
   },
   {
     date: "April 2026",
-    title: "Paper accepted at ACL 2026",
+    title: "Paper accepted at ACL 2026!",
     description: "Our work on human evaluation protocols for long-form text generation has been accepted at ACL 2026!",
     // link: "https://icml.cc/",
   },
  // uncomment this when you have news
-   {
-  date: "February 2026",
-  title: "New preprint on how users interact with Grok on X is available on arXiv!",
-  description:"",
-  link:"https://arxiv.org/abs/2602.11286" ,
-},
+//    {
+//   date: "February 2026",
+//   title: "New preprint on how users interact with Grok on X is available on arXiv!",
+//   description:"",
+//   link:"https://arxiv.org/abs/2602.11286" ,
+// },
 //   {
 //   date: "June 2025",
 //   title: "I passed my qualifying exam and became a PhD candidate!",
