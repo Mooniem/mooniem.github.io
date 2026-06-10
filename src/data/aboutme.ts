@@ -35,7 +35,7 @@ export const aboutMe: AboutMe = {
     Through large-scale online experiments and collection of real-world social media data, my projects focus on human cognition and decision-making in the age of generative AI, including 1) how individuals interact with AI systems in various settings, \
      2) how AI systems affect individuals' behaviors, \
      and 3) psychological factors underlying our engagement with AI systems.",
-  email: "kmei@uw.edu",
+  email: "kmei [at] uw [dot] edu",
   imageUrl: "/profile3.jpg",
   googleScholarUrl: "https://scholar.google.com/citations?user=m8Fcl7QQLMAC&hl=en",
   githubUsername: "mooniem",
