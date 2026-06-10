@@ -30,10 +30,10 @@ export const publicationData: Publication[] = [
   },
   {
     year: "2026",
-    conference: "the 64th Annual Meeting of the Association for Computational Linguistics (ACL)- Oral Presentation",
+    conference: "The 64th Annual Meeting of the Association for Computational Linguistics (ACL) ",
     title: "Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation",
     authors: "Katelyn X. Mei, Yili Hsu, Minjoon Choi, Zongwan Cao, Chenjun Xu, Bingbing Wen, Su Lin Blodgett, Lucy Lu Wang",
-    // paperUrl: "https://arxiv.org/abs/2506.08846",
+    paperUrl: "https://arxiv.org/abs/2606.07936",
     // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Large-scale analysis of human evaluation protocols for long-form text generation.",
