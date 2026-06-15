@@ -7,12 +7,12 @@ export interface News {
 
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
-  //     {
-  //   date: "June 2026",
-  //   title: "Summer Research Internship at Microsoft Research!",
-  //   description: "Starting this ",
-  //   // link: "https://icml.cc/",
-  // },
+      {
+    date: "June 2026",
+    title: "I'm starting my summer internship at Microsoft FATE Research!",
+    description: "I'm excited to be interning at Microsoft FATE Research this summer, please reach out if you're interested in connecting!",
+    // link: "https://icml.cc/",
+  },
     {
     date: "May 2026",
     title: "Paper Presentation at ICWSM 2026!",
