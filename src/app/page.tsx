@@ -54,7 +54,7 @@ export default function Home() {
             )}
 
             <p className="border-l-2 border-[#a04f36] bg-[#e9ebe4] px-4 py-3 font-sans text-sm leading-6 text-[#39463d]">
-              I’m seeking internship opportunities and full-time roles for 2027!.
+              I’m seeking internship opportunities and full-time roles for 2027!
             </p>
 
             <ResearchAreas />
