@@ -1,4 +1,5 @@
 export interface Publication {
+  id: string;
   year: string;
   conference: string;
   title: string;
@@ -13,7 +14,21 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
+
+   {
+    id: "ai-assisted-writing-collapse",
+    year: "2026",
+    conference: "UIST 2026",
+    title: "Procedural Collapse: A Structural Account of Disengagement in LLM-Assisted Writing",
+    authors: "Jaewon Kim, Katelyn X. Mei",
+    paperUrl: "https://arxiv.org/abs/2608.17326",
+    // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
+    //bibtex: "https://arxiv.org/abs/2409.15476.bib",
+    tldr: "We propose the structural account of disengagement in LLM-assisted writing and emphasize the need for design interventions.",
+  },
+
     {
+    id: "grok-social-media",
     year: "2026",
     conference: "The International AAAI Conference on Web and Social Media",
     title: "Grok in the Wild: Characterizing the Roles and Uses of Large Language Models on Social Media",
@@ -29,6 +44,7 @@ export const publicationData: Publication[] = [
     // imageUrl: "/images/publication-image.jpg"
   },
   {
+    id: "human-evaluation",
     year: "2026",
     conference: "The 64th Annual Meeting of the Association for Computational Linguistics (ACL) ",
     title: "Illusions of the Gold Standard: A Large-scale Analysis of Human Evaluation Protocols for Long-form Text Generation",
@@ -44,6 +60,7 @@ export const publicationData: Publication[] = [
     // imageUrl: "/images/publication-image.jpg"
   },
   {
+    id: "critical-thinking",
     year: "2025",
     conference: "ACM Workshop on Human-AI Interaction for Augmented Reasoning (CHI)",
     title: "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
@@ -59,6 +76,7 @@ export const publicationData: Publication[] = [
     // imageUrl: "/images/publication-image.jpg"
   },
   {
+    id: "inclusive-speech-auditing",
     year: "2026",
     conference: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
     title: "Addressing Pitfalls in Auditing Practices of Automatic Speech Recognition Technologies: A Case Study of People with Aphasia",
@@ -75,6 +93,7 @@ export const publicationData: Publication[] = [
   },
 
   {
+    id: "ai-reliance",
     year: "2025",
     conference: "ACM Transactions on Computer-Human Interaction (TOCHI)",
     title: "Passing the Buck to AI: How Individuals' Decision-Making Patterns Affect Reliance on AI",
@@ -105,6 +124,7 @@ export const publicationData: Publication[] = [
   //   // imageUrl: "/images/publication-image.jpg"
   // },
   {
+    id: "stigmatized-group-bias",
     year: "2023",
     conference: "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
     title: "Bias Against 93 Stigmatized Groups in Masked Language Models and Downstream Sentiment Classification Tasks",

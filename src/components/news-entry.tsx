@@ -3,9 +3,9 @@ import { News } from "@/data/news";
 
 export function NewsEntry({ news }: { news: News }) {
   return (
-    <div className="flex flex-row gap-6">
+    <div className="flex min-h-36 flex-col">
       <div className="flex flex-col flex-1">
-        <p className="text-xs text-zinc-500 mb-2">{news.date}</p>
+        <p className="mb-2 text-xs text-zinc-500">{news.date}</p>
         <h3 className="emphasis-text">
           {news.link ? (
             <a

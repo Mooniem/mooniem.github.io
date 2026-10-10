@@ -23,7 +23,7 @@ export const aboutMe: AboutMe = {
   institution: "University of Washington",
   // Note that links work in the description
   description:
-    "I'm a fourth-year PhD candidate in Information Science at the University of Washington. \
+    "I'm a 5th-year PhD candidate in Information Science at the University of Washington. \
      I'm fortunate to be advised by <a href='https://llwang.net/'>Lucy Lu Wang </a> \
      and <a href = 'https://homes.cs.washington.edu/~reinecke/'> Katharina Reinecke</a>.\
      I'm also very grateful to be mentored by <a href = 'https://koenecke.infosci.cornell.edu/'> Allison Koenecke </a> and <a href='https://www.monasloane.org/'> Mona Sloane </a>.\
