@@ -18,7 +18,7 @@ export const publicationData: Publication[] = [
    {
     id: "ai-assisted-writing-collapse",
     year: "2026",
-    conference: "UIST 2026",
+    conference: "The 39th Annual ACM Symposium on User Interface Software and Technology (UIST)",
     title: "Procedural Collapse: A Structural Account of Disengagement in LLM-Assisted Writing",
     authors: "Jaewon Kim, Katelyn X. Mei",
     paperUrl: "https://arxiv.org/abs/2608.17326",
