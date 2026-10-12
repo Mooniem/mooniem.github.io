@@ -13,7 +13,7 @@ export function ResearchAreas() {
         {researchAreas.map((area) => (
           <article
             key={area.title}
-            className="min-h-44 border border-[#c9cec5] border-t-2 border-t-[#a04f36] bg-white/50 p-4 sm:p-5"
+            className="min-h-44 border border-[#c9cec5] border-t-2 border-t-[#a04f36] bg-white/50 p-4 transition duration-200 ease-out hover:-translate-y-1 hover:border-[#a04f36] hover:bg-white hover:shadow-md motion-reduce:transition-none sm:p-5"
           >
             <h3 className="font-serif text-lg leading-snug text-[#202923]">
               {area.title}

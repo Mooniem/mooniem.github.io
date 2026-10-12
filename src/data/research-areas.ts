@@ -16,8 +16,8 @@ export const researchAreas: ResearchArea[] = [
       "I design interventions in human-AI interactions to enhance our decision-making processes, learning, and thinking capabilities.",
   },
    {
-    title: "Auditing AI for real-world impacts",
+    title: "Developing human-centered approaches to evaluate AI systems",
     description:
-      "My work examines who current systems fail and how audits can better reflect the experiences of people affected by automated technologies.",
+      "I develop computational methods to understand how current systems fail and how audits can better reflect the experiences of people affected by automated technologies.",
   },
 ];

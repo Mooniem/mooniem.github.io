@@ -23,18 +23,20 @@ export const aboutMe: AboutMe = {
   institution: "University of Washington",
   // Note that links work in the description
   description:
-    "I'm a 5th-year PhD candidate in Information Science at the University of Washington. \
-     I'm fortunate to be advised by <a href='https://llwang.net/'>Lucy Lu Wang </a> \
+    "I'm a 5th-year PhD candidate in information science at the University of Washington. \
+     I'm fortunate to be advised by <a href='https://llwang.net/'>Lucy Lu Wang </a>\
      and <a href = 'https://homes.cs.washington.edu/~reinecke/'> Katharina Reinecke</a>.\
      I'm also very grateful to be mentored by <a href = 'https://koenecke.infosci.cornell.edu/'> Allison Koenecke </a> and <a href='https://www.monasloane.org/'> Mona Sloane </a>.\
+     During summer 2026, I had an amazing experience working with <a href = 'https://www.jennwv.com/'> Jenn Wortman Vaughan</a> and <a href = 'http://jakehofman.com/'> Jake Hofman</a> in Microsoft Research FATE team. \
      Before my PhD, I spent four amazing years at <a href='https://www.middlebury.edu/'> \
      Middlebury College</a> from which I obtained my Bachelor's of Art in Psychology and\
      Mathematics. \n\n"+
 
     "My research interests derive from the intersection of psychology, humanties, and data science.\
-    Through large-scale online experiments and collection of real-world social media data, my projects focus on human cognition and decision-making in the age of generative AI, including 1) how individuals interact with AI systems in various settings, \
-     2) how AI systems affect individuals' behaviors, \
-     and 3) psychological factors underlying our engagement with AI systems.",
+    Through large-scale online experiments and collection of real-world social media data, I examine the impact of generative AI on human cognition and decision-making and explore new approaches to enhance human-AI collaboration.",
+    // including 1) how individuals interact with AI systems in various settings, 
+    //  2) how AI systems affect individuals' behaviors, 
+    //  and 3) psychological factors underlying our engagement with AI systems.",
     // "I'll be interning at Microsoft FATE Research this summer in New York City, working with <a href = 'https://www.jennwv.com/'> Jenn Wortman Vaughan</a> and <a href = 'http://jakehofman.com/'> Jake Hofman</a>.",
 
   email: "kmei [at] uw [dot] edu",
